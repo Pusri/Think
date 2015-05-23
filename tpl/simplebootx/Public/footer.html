@@ -1,0 +1,20 @@
+<br><br><br>
+<!-- Footer
+      ================================================== -->
+      <hr>
+{:hook('footer')}
+      <div id="footer">
+        <div class="links">
+        <php>$links=sp_getlinks();</php>
+        <foreach name="links" item="vo">
+          <a href="{$vo.link_url}" target="{$vo.link_target}">{$vo.link_name}</a>
+        </foreach>
+        </div>
+        <p>
+        Made by <a href="http://pusri.github.io">Pusri</a>
+        <br/>
+        版权所有<a href="http://www.hbut.com" target="_blank">湖北工业大学 电气与电子工程学院</a>
+        </p>
+      </div>
+      <div id="backtotop"><i class="fa fa-arrow-circle-up"></i></div>
+      {$site_tongji}

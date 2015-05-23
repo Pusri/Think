@@ -1,0 +1,7 @@
+[ 2015-05-23T21:53:09+08:00 ] ::1 /think/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8] Undefined index: url /Applications/MAMP/htdocs/think/application/Common/Controller/AppframeController.class.php 第 43 行.
+
