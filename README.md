@@ -29,11 +29,13 @@ Windows下使用phpStudy集成环境部署：
 项目地址：https://github.com/Pusri/Think.git
 使用git clone 命令将项目拉取到本地
 
-或直接在https://github.com/Pusri/Think页面下载项目代码。
+或直接在
+https://github.com/Pusri/Think
+页面下载项目代码。
 
 ## 应用安装
 
 ### 安装模式
 1. 将think目录下的文件全部放到部署目录WWW或htdocs下（环境版本不同部署目录不同）；
 2. 将install目录下的install.lock删除，即可使用安装模式；
-3. 浏览器访问即可进入安装界面，通过安装界面配置数据库及后台信息。
+3. 浏览器访问localhost即可进入安装界面，通过安装界面配置数据库及后台信息。
