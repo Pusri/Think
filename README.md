@@ -23,10 +23,17 @@ phpStudy for Linux 支持Apache/Nginx/Tengine/Lighttpd，
 Windows下使用phpStudy集成环境部署：
 下载phpStudy并安装，环境选择PHP5.3+Apache+MySQL。
 
+下载地址：http://www.phpstudy.net/phpstudy/phpStudy.zip
+
+## 获取代码
+项目地址：https://github.com/Pusri/Think.git
+使用git clone 命令将项目拉取到本地
+
+或直接在https://github.com/Pusri/Think页面下载项目代码。
 
 ## 应用安装
 
-### oneThink安装模式
+### 安装模式
 1. 将think目录下的文件全部放到部署目录WWW或htdocs下（环境版本不同部署目录不同）；
 2. 将install目录下的install.lock删除，即可使用安装模式；
 3. 浏览器访问即可进入安装界面，通过安装界面配置数据库及后台信息。
